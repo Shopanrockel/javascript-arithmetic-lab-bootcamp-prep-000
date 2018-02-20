@@ -1,5 +1,6 @@
 var a = 1 
 var b = 2 
+var c = 3.4
 
 function add(a, b) {
   return a + b
@@ -29,3 +30,8 @@ function makeInt(a) {
   return parseInt(a , 10)
 }
 
+function preserveDecimal(c) {
+  return parseFLoat(c, 10)
+}
+
+function preserveDecimal
